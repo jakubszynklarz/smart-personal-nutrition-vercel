@@ -13,7 +13,7 @@ export default function Home({ isConnected }) {
 
       <main>
         <h1 className="title">
-          Witaj w Smart Personal Nutrition
+          Witaj w Smart Personal Nutrition!
         </h1>
 
         {isConnected ? (
