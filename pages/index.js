@@ -13,11 +13,11 @@ export default function Home({ isConnected }) {
 
       <main>
         <h1 className="title">
-          Welcome to Smart Personal Nutrition
+          Witaj w Smart Personal Nutrition
         </h1>
 
         {isConnected ? (
-          <h2 className="subtitle">Udało się połączyc z MongoDB</h2>
+          <h2 className="subtitle">Pańciuszek ma tłusty brzuszek</h2>
         ) : (
           <h2 className="subtitle">
             You are NOT connected to MongoDB. Check the <code>README.md</code>{' '}
